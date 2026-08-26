@@ -38,3 +38,15 @@ header {
     align-content: center;
     margin-right: .7rem;
 }
+
+section {
+    /* border: .1rem purple solid; */
+    display: flex;
+    flex: 1;
+}
+
+nav {
+    width: 10rem;
+    background-color: #eee;
+    padding: .5rem;
+}
