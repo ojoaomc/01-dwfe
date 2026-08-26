@@ -50,3 +50,19 @@ nav {
     background-color: #eee;
     padding: .5rem;
 }
+
+.container {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: left
+}
+
+footer {
+    height: 4rem;
+    padding: .5rem;
+    background-color: #252323;
+    color: #eee;
+}
