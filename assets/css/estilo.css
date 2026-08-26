@@ -1,0 +1,40 @@
+@import url("cartao.css");
+
+* {
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: .5rem;
+    background-color: #252323;
+    color: #eee;
+}
+
+.logo {
+    border: .1rem blue solid;
+    background-color: blue;
+    color: #eee;
+    font-weight: bold;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .7rem;
+    display: flex;
+    justify-content: center;
+    align-itens: center;
+    align-content: center;
+    margin-right: .7rem;
+}
