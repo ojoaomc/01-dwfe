@@ -40,15 +40,16 @@ header {
     background-color: #464646;
 }
 
-.menu-hamburguer i { /* i é subordinado ao menu-hamburguer */
+.menu-hamburguer #icone { /* i é subordinado ao menu-hamburguer */
     font-size: 1.2rem;
     color: #ccc;
 }
 
-.menu-hamburguer:hover i {
-    color: red; /* #eee */
+.menu-hamburguer:hover #icone {
+    color: #eee; /* #eee */
 }
 
-.menu-hamburguer i:hover {
-    color: green; /* white */
+.menu-hamburguer #icone:hover {
+    color: white; /* white */
 }
+
