@@ -42,14 +42,13 @@ header {
 
 .menu-hamburguer #icone { /* i é subordinado ao menu-hamburguer */
     font-size: 1.2rem;
-    color: #ccc;
+    color: #ccc; /* #ccc */
 }
 
 .menu-hamburguer:hover #icone {
-    color: #eee; /* #eee */
+    color: red; /* #eee */
 }
 
 .menu-hamburguer #icone:hover {
-    color: white; /* white */
+    color: yellowgreen; /* white */
 }
-
