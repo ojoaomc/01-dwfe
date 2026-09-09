@@ -11,3 +11,11 @@ a {
 li {
     margin-bottom: 1rem;
 }
+
+.opcao {
+    display: flex;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    background-color: #ddd;
+    color: #5e5e5e;
+}
