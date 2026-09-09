@@ -1,7 +1,8 @@
 nav {
     width: 15rem;
     background-color: #eee;
-    padding: 0.5rem; /* mesma coisa de .5rem */
+    padding: 0.5rem;
+    /* mesma coisa de .5rem */
 }
 
 a {
@@ -29,4 +30,16 @@ li {
 
 .opcao:hover .rotulo {
     text-align: right;
+}
+
+.opcao:hover .icone-final {
+    opacity: 1;
+}
+
+.icone-inicial {
+    width: 1.5rem;
+}
+
+.rotulo {
+    flex: 1;
 }
