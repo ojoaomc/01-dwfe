@@ -19,7 +19,7 @@
                 "header header header"
                 "main main main"
                 "footer footer footer";
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
             /* Define a largura das colunas */
             grid-template-rows: 5rem auto 4rem;
             /* Define a altura das linhas */
@@ -41,6 +41,16 @@
             padding: 1rem;
         }
 
+        .formulario {
+            /*width: 3rem;*/
+            height: 2rem;
+            border: 0.1px solid white;
+            border-radius: .5rem;
+            padding: .5rem;
+            margin: .5rem;
+            
+        }
+
         .footer {
             grid-area: footer;
             background: #333;
@@ -53,8 +63,19 @@
 
 <body>
     <div class="container">
-        <div class="header">Logo | Título | Menu</div>
-        <div class="main">Foto</div>
+        <div class="header">
+            <div class="container">
+            <div class="formulario">Origem</div>
+            <div class="formulario">Destino</div>
+            <div class="formulario">Dias</div>
+            <div class="formulario">Preço</div>
+        </div>  
+        </div>
+        
+    <div class="main">
+        
+    </div>
+
         <div class="footer">Rodapé</div>
     </div>
 </body>
