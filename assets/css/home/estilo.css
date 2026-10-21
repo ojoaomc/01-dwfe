@@ -1,9 +1,9 @@
-@import url("cabecalho.css");
-@import url("corpo.css");
-@import url("cartao.css");
-@import url("rodape.css");
-@import url("menulateral.css");
-@import url("responsividade.css");
+@import url("./assets/css/home/cabecalho.css");
+@import url("./assets/css/home/corpo.css");
+@import url("./assets/css/home/cartao.css");
+@import url("./assets/css/home/rodape.css");
+@import url("./assets/css/home/menulateral.css");
+@import url("./assets/css/home/responsividade.css");
 
 * { /* asterisco é um seletor universal (aplica regras de estilo a todos os elementos da página) */
     font-size: 16px;
