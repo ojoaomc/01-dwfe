@@ -1,4 +1,4 @@
-@media (max-widht: 576px) { /* como a pagina vai ficar em uma tela de ate 576px */
+@media (max-width: 576px) { /* como a pagina vai ficar em uma tela de ate 576px */
     .titulo {
         opacity: 0;
     }
