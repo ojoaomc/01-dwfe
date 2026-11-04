@@ -36,7 +36,7 @@ export const dados_das_noticias = [
     categoria: "Cultura",
     autor: "Carla Vieira Grossi",
     data: "20/04/2026",
-    imagem: "./assets/img/festivaldemusica.png",
+    imagem: "./assets/img/festivalMusica.png",
   },
   {
     id: 3,
@@ -48,5 +48,27 @@ export const dados_das_noticias = [
     autor: "Fabiana Pereira Lima",
     data: "04/05/2026",
     imagem: "./assets/img/gastronomia.png",
+  },
+];
+
+export const dados_das_mensagens = [
+  {
+    id: 0,
+    titulo: "Wesley Dias Maciel",
+    descricao:
+      "O transporte público em BH é composto por um extenso sistema de ônibus urbanos.",
+    data: "16/02/2026",
+  },
+  {
+    id: 1,
+    
+  },
+  {
+    id: 2,
+    
+  },
+  {
+    id: 3,
+    
   },
 ];

@@ -1,0 +1,1 @@
+import { dados_das_mensagens } from "./bd.js";
